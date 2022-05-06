@@ -1,0 +1,89 @@
+.ad {
+    background-color: black;
+    width: auto; 
+    height: 280px; 
+    padding-top: 14%;
+}
+
+.contents {
+    margin: 0 auto;
+    width: 140vh;
+    padding: 10vh 4vh 0 4vh;
+    height: 480px;
+}
+
+.game {
+    margin-top: 5vh;
+}
+
+.title h2 {
+    float: left;
+}
+
+.title{
+    width: 140vh;
+    font-size: 16px;
+    font-family: 'NEXON Lv1 Gothic Bold';
+    text-align: center;
+    display: inline;
+    position: absolute;
+}
+
+.title div {
+    float: right;
+    font-family: 'NEXON Lv1 Gothic Regular';
+    font-size: 14px;
+    padding-left: 3vh;
+}
+
+.push_game {
+    position: absolute;
+    margin-top: 6vh;
+    width: 154px;
+    height: 194px;
+    float: left;
+    margin: 6vh 0.5vh 0vh 0.5vh;
+    overflow: hidden;
+    transition: 0.3s ease all;
+    background-color: white;
+}
+
+.push_game1 {
+    position: absolute;
+    margin-top: 6vh;
+    width: 154px;
+    height: 342px;
+    float: left;
+    margin: 6vh 0.5vh 0vh 0.5vh;
+    overflow: hidden;
+    transition: 0.3s ease all;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.game_name:hover {
+    transition: 0.3s ease all;
+    box-shadow: 0px 1px 15px rgb(178,178,178);
+}
+
+.game_img:hover {
+    transform: scale(1.1);
+    -webkit-transition: 0.3s ease all;
+}
+
+.game_img {
+    width: 154px;
+    transition: 0.3s ease all;
+    flex: 0.6;
+}
+
+.game_name {
+    float: left;
+    margin-top: 6vh;
+    width: 152px;
+    height: 342px;
+    border: 1px solid black;
+    margin: 6vh 0.5vh 0vh 0.5vh;
+    flex: 0.4;
+}
